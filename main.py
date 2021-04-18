@@ -27,7 +27,6 @@ try:
                 browser.get('https://www.instagram.com/' + username + '/')
                 try:
                     followButton = browser.find_element_by_css_selector('button')
-                    print(followButton)
                     followButton.click()
                 except common.exceptions.NoSuchElementException:
                     # if user not found

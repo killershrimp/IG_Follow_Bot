@@ -74,6 +74,9 @@ target/
 # pyenv
 .python-version
 
+want_to_follow.txt
+login_info.txt
+
 # celery beat schedule file
 celerybeat-schedule
 
